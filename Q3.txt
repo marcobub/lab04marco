@@ -1,0 +1,11 @@
+¿Cómo es que se instalan paquetes con yarn?
+Para instalar paquetes con Yarn, que es un administrador de paquetes similar a npm pero más rápido y eficiente en algunos aspectos, se utilizan varios comandos dependiendo de la necesidad, como instalar un solo paquete, todos los paquetes de un proyecto o instalar dependencias en un ambiente de desarrollo.
+
+¿Cómo es que se borran paquetes con yarn?
+Con el comando
+yarn remove <nombre-del-paquete>
+
+¿Hay algún equivalente en yarn que haga lo mismo que npm init?
+Sí, en Yarn existe un comando equivalente a npm init, que también sirve para inicializar un nuevo proyecto y crear el archivo package.json. El comando es:
+yarn init
+Este comando te hará una serie de preguntas para configurar el proyecto, como el nombre, versión, descripción, punto de entrada, autor, licencia, etc. Al finalizar, generará el archivo package.json con la información proporcionada.
